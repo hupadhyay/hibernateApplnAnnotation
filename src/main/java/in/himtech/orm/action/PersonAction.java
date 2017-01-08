@@ -32,10 +32,10 @@ public class PersonAction {
 		
 		System.out.println("--------------------------------------------------");
 		
-//		Person usr = session.get(Person.class, pid);
-//		
-//		System.out.println(usr);
-//		
+		Person usr = session.get(Person.class, pId);
+		
+		System.out.println(usr);
+		
 		session.getTransaction().commit();
 		
 		session.close();
