@@ -36,7 +36,12 @@
 		<!-- Mapping files -->
 	<!-- <mapping class="in.himtech.orm.domain.UserDetail" />
 		<mapping class="in.himtech.orm.domain.Person" />  
-		<mapping class="in.himtech.orm.domain.Chapter" /> -->	
-		<mapping class="in.himtech.orm.domain.Book" />
+		<mapping class="in.himtech.orm.domain.Chapter" /> 	
+		<mapping class="in.himtech.orm.domain.Book" /> 
+		<mapping class="in.himtech.orm.domain.Vehicle" /> 	
+		<mapping class="in.himtech.orm.domain.Bike" />
+		<mapping class="in.himtech.orm.domain.Car" /> -->
+		<mapping class="in.himtech.orm.domain.Employee" />
+		<mapping class="in.himtech.orm.domain.Department" />
 	</session-factory>
 </hibernate-configuration>

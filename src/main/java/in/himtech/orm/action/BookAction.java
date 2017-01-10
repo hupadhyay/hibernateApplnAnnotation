@@ -9,6 +9,11 @@ import in.himtech.orm.domain.Book;
 import in.himtech.orm.domain.Chapter;
 import in.himtech.orm.utils.HibernateUtils;
 
+/**
+ * 
+ * @author Himanshu
+ *
+ */
 public class BookAction {
 	
 	public static void main(String[] args) {
