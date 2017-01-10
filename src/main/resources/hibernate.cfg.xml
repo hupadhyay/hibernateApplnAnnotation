@@ -40,8 +40,10 @@
 		<mapping class="in.himtech.orm.domain.Book" /> 
 		<mapping class="in.himtech.orm.domain.Vehicle" /> 	
 		<mapping class="in.himtech.orm.domain.Bike" />
-		<mapping class="in.himtech.orm.domain.Car" /> -->
+		<mapping class="in.himtech.orm.domain.Car" /> 
 		<mapping class="in.himtech.orm.domain.Employee" />
-		<mapping class="in.himtech.orm.domain.Department" />
+		<mapping class="in.himtech.orm.domain.Department" /> -->
+		<mapping class="in.himtech.orm.domain.Owner" />
+		<mapping class="in.himtech.orm.domain.Flat" />
 	</session-factory>
 </hibernate-configuration>
