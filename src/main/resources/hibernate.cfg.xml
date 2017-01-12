@@ -31,7 +31,7 @@
 		<property name="show_sql">true</property>
 
 		<!-- Drop and re-create the database schema on startup -->
-		<property name="hbm2ddl.auto">create</property>
+		<property name="hbm2ddl.auto">update</property>
 
 		<!-- Mapping files -->
 	<!-- <mapping class="in.himtech.orm.domain.UserDetail" />
@@ -42,8 +42,9 @@
 		<mapping class="in.himtech.orm.domain.Bike" />
 		<mapping class="in.himtech.orm.domain.Car" /> 
 		<mapping class="in.himtech.orm.domain.Employee" />
-		<mapping class="in.himtech.orm.domain.Department" /> -->
+		<mapping class="in.himtech.orm.domain.Department" /> 
 		<mapping class="in.himtech.orm.domain.Owner" />
-		<mapping class="in.himtech.orm.domain.Flat" />
+		<mapping class="in.himtech.orm.domain.Flat" />-->
+		<mapping class="in.himtech.orm.domain.Tourist" />
 	</session-factory>
 </hibernate-configuration>
